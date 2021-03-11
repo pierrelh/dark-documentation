@@ -1,0 +1,104 @@
+.documentation-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    display: flex;
+}
+
+.nav-element {
+    width: 20%;
+}
+
+.doc-element {
+    width: 80%;
+}
+
+.nav,
+.doc {
+    width: 100%;
+    height: 100%;
+}
+
+.nav {
+    border-right: 1px solid white;
+    overflow-x: hidden;
+}
+
+.doc {
+    overflow-y: scroll;
+}
+
+.nav > ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+}
+
+.nav > ul > li {
+    padding: 5px 0;
+}
+
+.nav > ul > li > a {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.one {
+    padding-left: 15px;
+}
+
+.two {
+    padding-left: 25px;
+}
+
+.three {
+    padding-left: 35px;
+}
+
+.four {
+    padding-left: 45px;
+}
+
+.doc > div {
+    color: white;
+    margin: 2.5% 5%;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background-color: #1e1e1e;
+}
+
+.doc > div > h1 {
+    font-size: 3.5em;
+}
+
+.doc > div > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.doc > div > ul > li {
+    width: 49%;
+}
+
+.doc > div > ul > li > img {
+    width: 100%;
+    border-right: 1px solid white;
+}
+
+.doc > div > p,
+.doc > div > ul > li > p {
+    font-size: 1vw;
+    text-align: justify;
+}
