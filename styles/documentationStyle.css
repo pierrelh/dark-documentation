@@ -16,6 +16,13 @@
     width: 80%;
 }
 
+.doc > h2 {
+    color: white;
+    text-decoration: underline;
+    text-align: right;
+    margin: 2% 5%;
+}
+
 .nav,
 .doc {
     width: 100%;
